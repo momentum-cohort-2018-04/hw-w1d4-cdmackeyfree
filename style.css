@@ -1,0 +1,72 @@
+/* 
+#021C1E - blue black
+#004445 - cadet blue
+#2C7873 - rain
+#6FB98F - greenery
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #004445;
+}
+
+.main {
+    background-color: #6FB98F;
+}
+
+body {
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    width: 95%;
+    padding: 5%;
+    text-align: center;
+    background-color: #004445;
+    float: left;
+}
+
+img {
+    width: 40%;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+footer img {
+    height: 300px;
+}
+
+.resume_button {
+    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/computer.jpeg);
+    color: #021C1E;
+    width: 33%;
+    text-align: center;
+    font-family: Lucidabright;
+    float: left;
+    padding: 10%;
+    
+}
+
+.project_button {
+    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/Cosmo.png);
+    color: #021C1E;
+    width: 33%;
+    text-align: center;
+    font-family: Lucidabright;
+    display: inline-block;
+    padding: 10%;
+}
+
+.home_button {
+    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/myface.png);
+    color: #021C1E;
+    width: 33%;
+    text-align: center;
+    font-family: Lucidabright;
+    float: right;
+    padding: 10%;
+}
+
+.clearfix {
+    clear: both;
+}
