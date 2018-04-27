@@ -87,29 +87,18 @@ img {
     padding-top: 5%;
 }
 
-.project_1 img {
-    width: 60%;
-    float: left;
-}
-
 .project_1, .project_2 {
     height: 15rem;
-    /* padding: 5% 5% 10% 5%;  */
-    /* border-style: ridge;
-    border-width: 2px;
-    border-color: #2C7873; */
-    /* margin: 2rem; */
+    display: inline-block;
+    margin: 5%;
 }
 
 .project_2 img {
     width: 60%;
-    float: left;
 }
 
-
-.links {
-    float: right;
-    width: 20%;
+.project_1 img {
+    width: 60%;
 }
 
 .bod_project{
