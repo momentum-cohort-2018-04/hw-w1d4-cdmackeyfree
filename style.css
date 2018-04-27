@@ -9,8 +9,23 @@
     box-sizing: border-box;
 }
 
-a {
+h1, h2, h3 {
+    color: #021C1E;
+}
+
+.header_img {
+    width: 75%;
+    height: 50%;
+    display: inline-block;
+    margin: 0 0 5% 0;
+}
+
+body a {
     color: #004445;
+}
+
+footer a {
+    color: #ffff;
 }
 
 .main {
@@ -22,8 +37,37 @@ body {
     width: 95%;
     padding: 5%;
     text-align: center;
-    background-color: #004445;
+    background-color: #2C7873;
+    color: #021C1E;
     float: left;
+}
+
+.contact_info{
+    border-style: solid;
+    border-color: #2C7873;
+    border-width: 2px;
+    width: 40%;
+    display: inline-block;
+    margin: 0 0 5% 0;
+    text-align: center;
+}
+
+.resume_bod{
+    background-color: #A6F6D4;
+    
+}
+
+.contact_info img{
+    width: 2rem;
+}
+
+p {
+    margin: 5px 10px 5px 10px;
+}
+
+.interests {
+    margin: 5px;
+    padding: 0 0 10px 0;
 }
 
 img {
@@ -36,35 +80,27 @@ footer img {
     height: 300px;
 }
 
-.resume_button {
-    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/computer.jpeg);
-    color: #021C1E;
+.button {
     width: 33%;
-    text-align: center;
     font-family: Lucidabright;
-    float: left;
+    text-align: center;
     padding: 10%;
     
 }
 
-.project_button {
-    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/Cosmo.png);
-    color: #021C1E;
-    width: 33%;
-    text-align: center;
-    font-family: Lucidabright;
-    display: inline-block;
-    padding: 10%;
+.projects {
+    float: left;
+    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/computer.jpeg);
 }
 
-.home_button {
-    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/myface.png);
-    color: #021C1E;
-    width: 33%;
-    text-align: center;
-    font-family: Lucidabright;
+.home {
     float: right;
-    padding: 10%;
+    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/myface.png);
+}
+
+.resume{
+    display: inline-block;
+    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/Cosmo.png);
 }
 
 .clearfix {
