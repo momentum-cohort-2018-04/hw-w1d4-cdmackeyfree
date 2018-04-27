@@ -11,6 +11,7 @@
 
 h1, h2, h3 {
     color: #021C1E;
+    text-align: center;
 }
 
 .header_img {
@@ -29,7 +30,13 @@ footer a {
 }
 
 .main {
-    background-color: #6FB98F;
+    background-color: #A6F6D6;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.main_intro {
+    background-color: #A6F6D6;
+    padding: 1rem 1rem 0 1rem;
 }
 
 body {
@@ -37,9 +44,13 @@ body {
     width: 95%;
     padding: 5%;
     text-align: center;
-    background-color: #2C7873;
+    background-color: #34948D;
     color: #021C1E;
     float: left;
+}
+
+.get_to_know_me{
+    padding: 0 0 1rem 0;
 }
 
 .contact_info{
@@ -76,13 +87,53 @@ img {
     padding-top: 5%;
 }
 
+.project_1 img {
+    width: 60%;
+    float: left;
+}
+
+.project_1, .project_2 {
+    height: 15rem;
+    /* padding: 5% 5% 10% 5%;  */
+    /* border-style: ridge;
+    border-width: 2px;
+    border-color: #2C7873; */
+    /* margin: 2rem; */
+}
+
+.project_2 img {
+    width: 60%;
+    float: left;
+}
+
+
+.links {
+    float: right;
+    width: 20%;
+}
+
+.bod_project{
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    width: 95%;
+    padding: 5%;
+    background-color: #34948D;
+    color: #021C1E;
+    /* text-align: center; */
+}
+
+
 footer img {
     height: 300px;
 }
 
+.name {
+    font-family: Lucidabright, "Lucida Serif", serif;
+    font-weight: bolder;
+}
+
 .button {
     width: 33%;
-    font-family: Lucidabright;
+    font-family: Lucidabright, "Lucida Serif", serif;
     text-align: center;
     padding: 10%;
     
