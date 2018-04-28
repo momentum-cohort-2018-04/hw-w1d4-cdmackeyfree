@@ -25,6 +25,16 @@ h1, h2, h3 {
     width: 2rem;
 }
 
+
+ .project_1 {
+     display: inline-block;
+ }
+
+ .project_2 {
+     display: inline-block;
+     padding-bottom: 5%;
+ }
+
 body a {
     color: #004445;
 }
@@ -86,24 +96,12 @@ p {
 }
 
 img {
-    width: 40%;
+    max-width: 100%;
+    /* width: 40%;
     display: inline-block;
-    padding-top: 5%;
+    padding-top: 5%; */
 }
 
-.project_1, .project_2 {
-    height: 15rem;
-    display: inline-block;
-    margin: 5%;
-}
-
-.project_2 img {
-    width: 60%;
-}
-
-.project_1 img {
-    width: 60%;
-}
 
 .bod_project{
     font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
