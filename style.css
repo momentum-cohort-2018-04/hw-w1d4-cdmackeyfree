@@ -148,3 +148,24 @@ footer img {
 .clearfix {
     clear: both;
 }
+
+@media screen and (min-width: 992px){
+    img {
+        float: left;
+    }
+
+    .myface{
+        padding: 5%;
+    }
+
+    .index_words {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #6FB98F;
+        background-color: #ABC7E7;
+    }
+
+    
+
+}
+    
