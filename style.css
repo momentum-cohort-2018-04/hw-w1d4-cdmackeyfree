@@ -71,7 +71,7 @@ body {
     border-style: solid;
     border-color: #2C7873;
     border-width: 2px;
-    width: 40%;
+    width: 150px;
     display: inline-block;
     margin: 0 0 5% 0;
     text-align: center;
@@ -79,6 +79,7 @@ body {
 
 .resume_bod{
     background-color: #A6F6D4;
+    text-align: center;
     
 }
 
@@ -88,6 +89,7 @@ body {
 
 p {
     margin: 5px 10px 5px 10px;
+    color: #010A42;
 }
 
 .interests {
@@ -117,7 +119,7 @@ footer img {
     height: 300px;
 }
 
-.name {
+.index_name {
     font-family: Lucidabright, "Lucida Serif", serif;
     font-weight: bolder;
 }
@@ -145,17 +147,19 @@ footer img {
     background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/Cosmo.png);
 }
 
+.header_img {
+    padding: 10% 0 0 0;
+}
+
 .clearfix {
     clear: both;
 }
 
 @media screen and (min-width: 992px){
-    img {
-        float: left;
-    }
-
+    
     .myface{
         padding: 5%;
+        float: left;
     }
 
     .index_words {
@@ -165,7 +169,35 @@ footer img {
         background-color: #ABC7E7;
     }
 
-    
+   
+    .name {
+        font-family: Lucidabright, "Lucida Serif", serif;
+        font-weight: bolder;
+        /* padding: 0 0 10% 0; */
+    }
+
+
+    .contact_info {
+        text-align: center;
+        margin: 0 35% 5% 35%; 
+        background-color: #D1FFE0;
+        }
+    }
+
+    .top {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #6FB98F;
+        background-color: #D1FFE0;
+        margin-bottom: 5%;
+    }
+
+    .resume_bod {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 10%;
+    }
+
 
 }
     
