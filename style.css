@@ -21,7 +21,11 @@ h1, h2, h3 {
     margin: 0 0 5% 0;
 }
 
-.links img{
+.links_1 img{
+    width: 2.5rem;
+}
+
+.links_2 img{
     width: 2.5rem;
 }
 
@@ -212,14 +216,19 @@ footer img {
         padding: 5%;
     }
 
-    .links {
-        float: right;
+    .links_1 {
         padding: 5%;
+        float: right;
+    }
+
+    .links_2{
+        padding: 5%;
+        float: left;
     }
 
     .project_1 h3 {
         display: inline-block;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .project_1 p {
@@ -232,19 +241,18 @@ footer img {
         border-width: 2px;
         border-color: #6FB98F;
         background-color: #D1FFE0;
-        margin-bottom: 5%;
     
     }
 
 
     .project_2 img {
-        float: left;
+        float: right;
         padding: 5%;
     }
 
     .project_2 h3 {
         display: inline-block;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .project_2 p {
