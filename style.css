@@ -21,19 +21,9 @@ h1, h2, h3 {
     margin: 0 0 5% 0;
 }
 
-.links_img {
-    width: 2rem;
+.links img{
+    width: 2.5rem;
 }
-
-
- .project_1 {
-     display: inline-block;
- }
-
- .project_2 {
-     display: inline-block;
-     padding-bottom: 5%;
- }
 
 body a {
     color: #004445;
@@ -99,9 +89,8 @@ p {
 
 img {
     max-width: 100%;
-    /* width: 40%;
     display: inline-block;
-    padding-top: 5%; */
+    padding-top: 5%;
 }
 
 
@@ -111,7 +100,7 @@ img {
     padding: 5%;
     background-color: #34948D;
     color: #021C1E;
-    /* text-align: center; */
+    display: inline-block;
 }
 
 
@@ -133,12 +122,12 @@ footer img {
 }
 
 .projects {
-    float: left;
+    float: right;
     background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/computer.jpeg);
 }
 
 .home {
-    float: right;
+    float: left;
     background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/myface.png);
 }
 
@@ -153,6 +142,18 @@ footer img {
 
 .clearfix {
     clear: both;
+}
+
+@media screen and (max-width: 991px) {
+    .project_1 {
+        display: inline-block;
+        padding-bottom: 5%;
+    }
+
+    .project_2 {
+        display: inline-block;
+        padding-bottom: 5%;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -173,7 +174,6 @@ footer img {
     .name {
         font-family: Lucidabright, "Lucida Serif", serif;
         font-weight: bolder;
-        /* padding: 0 0 10% 0; */
     }
 
 
@@ -196,6 +196,59 @@ footer img {
         padding-left: 20%;
         padding-right: 20%;
         padding-top: 10%;
+    }
+
+    .project_1 {
+        width: 100%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #6FB98F;
+        background-color: #D1FFE0;
+        margin-bottom: 5%;
+    }
+
+    .project_1 img {
+        float: left;
+        padding: 5%;
+    }
+
+    .links {
+        float: right;
+        padding: 5%;
+    }
+
+    .project_1 h3 {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .project_1 p {
+        padding: 5%;
+    }
+
+    .project_2 {
+        width: 100%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #6FB98F;
+        background-color: #D1FFE0;
+        margin-bottom: 5%;
+    
+    }
+
+
+    .project_2 img {
+        float: left;
+        padding: 5%;
+    }
+
+    .project_2 h3 {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .project_2 p {
+        padding: 5%;
     }
 
 
