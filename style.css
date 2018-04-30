@@ -1,0 +1,264 @@
+/* 
+#021C1E - blue black
+#004445 - cadet blue
+#2C7873 - rain
+#6FB98F - greenery
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: #021C1E;
+    text-align: center;
+}
+
+.header_img {
+    width: 75%;
+    height: 50%;
+    display: inline-block;
+    margin: 0 0 5% 0;
+}
+
+.links_1 img{
+    width: 2.5rem;
+}
+
+.links_2 img{
+    width: 2.5rem;
+}
+
+body a {
+    color: #004445;
+}
+
+footer a {
+    color: #ffff;
+}
+
+.main {
+    background-color: #A6F6D6;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.main_intro {
+    background-color: #A6F6D6;
+    padding: 1rem 1rem 0 1rem;
+}
+
+body {
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    width: 95%;
+    padding: 5%;
+    text-align: center;
+    background-color: #34948D;
+    color: #021C1E;
+    float: left;
+}
+
+.get_to_know_me{
+    padding: 0 0 1rem 0;
+}
+
+.contact_info{
+    border-style: solid;
+    border-color: #2C7873;
+    border-width: 2px;
+    width: 150px;
+    display: inline-block;
+    margin: 0 0 5% 0;
+    text-align: center;
+}
+
+.resume_bod{
+    background-color: #A6F6D4;
+    text-align: center;
+    
+}
+
+.contact_info img{
+    width: 2rem;
+}
+
+p {
+    margin: 5px 10px 5px 10px;
+    color: #010A42;
+}
+
+.interests {
+    margin: 5px;
+    padding: 0 0 10px 0;
+}
+
+img {
+    max-width: 100%;
+    display: inline-block;
+    padding-top: 5%;
+}
+
+
+.bod_project{
+    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    width: 95%;
+    padding: 5%;
+    background-color: #34948D;
+    color: #021C1E;
+    display: inline-block;
+}
+
+
+footer img {
+    height: 300px;
+}
+
+.index_name {
+    font-family: Lucidabright, "Lucida Serif", serif;
+    font-weight: bolder;
+}
+
+.button {
+    width: 33%;
+    font-family: Lucidabright, "Lucida Serif", serif;
+    text-align: center;
+    padding: 10%;
+    
+}
+
+.projects {
+    float: right;
+    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/computer.jpeg);
+}
+
+.home {
+    float: left;
+    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/myface.png);
+}
+
+.resume{
+    display: inline-block;
+    background: linear-gradient(rgba(31, 109, 212, 0.6), rgba(42, 151, 200, 0.3)), no-repeat center/cover url(assets/Cosmo.png);
+}
+
+.header_img {
+    padding: 10% 0 0 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (max-width: 991px) {
+    .project_1 {
+        display: inline-block;
+        padding-bottom: 5%;
+    }
+
+    .project_2 {
+        display: inline-block;
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 992px){
+    
+    .myface{
+        padding: 5%;
+        float: left;
+    }
+
+    .index_words {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #6FB98F;
+        background-color: #ABC7E7;
+    }
+
+   
+    .name {
+        font-family: Lucidabright, "Lucida Serif", serif;
+        font-weight: bolder;
+    }
+
+
+    .contact_info {
+        text-align: center;
+        margin: 0 35% 5% 35%; 
+        background-color: #D1FFE0;
+        }
+    }
+
+    .top {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #6FB98F;
+        background-color: #D1FFE0;
+        margin-bottom: 5%;
+    }
+
+    .resume_bod {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 10%;
+    }
+
+    .project_1 {
+        width: 100%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #6FB98F;
+        background-color: #D1FFE0;
+        margin-bottom: 5%;
+    }
+
+    .project_1 img {
+        float: left;
+        padding: 5%;
+    }
+
+    .links_1 {
+        padding: 5%;
+        float: right;
+    }
+
+    .links_2{
+        padding: 5%;
+        float: left;
+    }
+
+    .project_1 h3 {
+        display: inline-block;
+        font-size: 30px;
+    }
+
+    .project_1 p {
+        padding: 5%;
+    }
+
+    .project_2 {
+        width: 100%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #6FB98F;
+        background-color: #D1FFE0;
+    
+    }
+
+
+    .project_2 img {
+        float: right;
+        padding: 5%;
+    }
+
+    .project_2 h3 {
+        display: inline-block;
+        font-size: 30px;
+    }
+
+    .project_2 p {
+        padding: 5%;
+    }
+
+
+}
+    
